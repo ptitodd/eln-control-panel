@@ -1,2 +1,2 @@
-# eln-control-panel
-This is a control panel specific to ELN's twitch stream. probably not worth much to anyone other than us. Might be something interesting in the future.
+# ELN Control Panel
+The ELN Control Panel is a series of open source applications and servers that combine to make an incredibly robust twitch streaming system.
