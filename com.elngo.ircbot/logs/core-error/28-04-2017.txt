@@ -1,0 +1,936 @@
+[04-28-2017 @ 02:30:48.716 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetStream(TwitchAPIv3.java:449)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:167)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:30:48.717 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannel(TwitchAPIv3.java:263)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:227)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:30:48.884 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannelFollows(TwitchAPIv3.java:403)
+	at me.mast3rplan.phantombot.cache.FollowersCache.quickUpdate(FollowersCache.java:79)
+	at me.mast3rplan.phantombot.cache.FollowersCache.run(FollowersCache.java:167)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.045 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.045 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.045 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.045 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.045 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.045 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.046 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.046 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.046 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.046 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.047 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.047 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.047 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.048 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.048 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.048 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.048 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.049 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.049 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.050 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.050 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.050 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.050 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.051 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.051 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.051 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.051 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.051 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:31:47.051 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.genSessionKey(PanelSocketServer.java:700)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:229)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:36:53.978 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetStream(TwitchAPIv3.java:449)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:167)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:36:53.978 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannel(TwitchAPIv3.java:263)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:227)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:36:54.116 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannelFollows(TwitchAPIv3.java:403)
+	at me.mast3rplan.phantombot.cache.FollowersCache.quickUpdate(FollowersCache.java:79)
+	at me.mast3rplan.phantombot.cache.FollowersCache.run(FollowersCache.java:167)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:37:23.981 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetStream(TwitchAPIv3.java:449)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:167)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:37:23.982 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannel(TwitchAPIv3.java:263)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:227)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:37:24.117 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannelFollows(TwitchAPIv3.java:403)
+	at me.mast3rplan.phantombot.cache.FollowersCache.quickUpdate(FollowersCache.java:79)
+	at me.mast3rplan.phantombot.cache.FollowersCache.run(FollowersCache.java:167)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:37:46.060 GMT] [SOCKET] Code [1006] Reason [] Remote Hangup [true]
+[04-28-2017 @ 02:57:39.040 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetStream(TwitchAPIv3.java:449)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:167)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:57:39.041 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannel(TwitchAPIv3.java:263)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:227)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:57:39.125 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannelFollows(TwitchAPIv3.java:403)
+	at me.mast3rplan.phantombot.cache.FollowersCache.quickUpdate(FollowersCache.java:79)
+	at me.mast3rplan.phantombot.cache.FollowersCache.run(FollowersCache.java:167)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:58:09.042 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetStream(TwitchAPIv3.java:449)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:167)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:58:09.042 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannel(TwitchAPIv3.java:263)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:227)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:58:09.126 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannelFollows(TwitchAPIv3.java:403)
+	at me.mast3rplan.phantombot.cache.FollowersCache.quickUpdate(FollowersCache.java:79)
+	at me.mast3rplan.phantombot.cache.FollowersCache.run(FollowersCache.java:167)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 02:58:22.635 GMT] java.lang.NullPointerException
+
+[04-28-2017 @ 02:58:22.635 GMT] java.lang.NullPointerException
+
+
+
+
+[04-28-2017 @ 02:58:22.635 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.636 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.637 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.637 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.637 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.637 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.637 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.637 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 02:58:22.637 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 05:57:02.502 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[04-28-2017 @ 16:59:04.750 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetStream(TwitchAPIv3.java:449)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:167)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 16:59:04.750 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannel(TwitchAPIv3.java:263)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:227)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 16:59:25.030 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannelFollows(TwitchAPIv3.java:403)
+	at me.mast3rplan.phantombot.cache.FollowersCache.quickUpdate(FollowersCache.java:79)
+	at me.mast3rplan.phantombot.cache.FollowersCache.run(FollowersCache.java:167)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 16:59:34.750 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetStream(TwitchAPIv3.java:449)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:167)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 16:59:34.750 GMT] java.net.UnknownHostException: api.twitch.tv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:124)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannel(TwitchAPIv3.java:263)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:227)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.642 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 17:00:03.642 GMT] java.lang.NullPointerException
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:250)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.642 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBQuery(PanelSocketServer.java:448)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:273)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.642 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBQuery(PanelSocketServer.java:448)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:273)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.643 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 17:00:03.643 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 17:00:03.643 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBQuery(PanelSocketServer.java:448)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:273)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.643 GMT] org.java_websocket.exceptions.InvalidFrameException: bad rsv 3
+	at org.java_websocket.drafts.Draft_10.translateSingleFrame(Draft_10.java:308)
+	at org.java_websocket.drafts.Draft_10.translateFrame(Draft_10.java:285)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:321)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:158)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:702)
+
+
+[04-28-2017 @ 17:00:03.644 GMT] org.java_websocket.exceptions.InvalidFrameException: bad rsv 1
+	at org.java_websocket.drafts.Draft_10.translateSingleFrame(Draft_10.java:308)
+	at org.java_websocket.drafts.Draft_10.translateFrame(Draft_10.java:285)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:321)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:158)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:702)
+
+
+[04-28-2017 @ 17:00:03.644 GMT] org.java_websocket.exceptions.InvalidFrameException: bad rsv 1
+	at org.java_websocket.drafts.Draft_10.translateSingleFrame(Draft_10.java:308)
+	at org.java_websocket.drafts.Draft_10.translateFrame(Draft_10.java:285)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:321)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:158)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:702)
+
+
+[04-28-2017 @ 17:00:03.644 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBQuery(PanelSocketServer.java:448)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:273)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.645 GMT] java.lang.NullPointerException
+
+
+[04-28-2017 @ 17:00:03.646 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBQuery(PanelSocketServer.java:448)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:273)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.649 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBKeysQuery(PanelSocketServer.java:480)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:278)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.649 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBKeysQuery(PanelSocketServer.java:480)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:278)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.650 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBQuery(PanelSocketServer.java:448)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:273)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.650 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBQuery(PanelSocketServer.java:448)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:273)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.652 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBKeysQuery(PanelSocketServer.java:480)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:278)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.652 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBQuery(PanelSocketServer.java:448)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:273)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[04-28-2017 @ 17:00:03.661 GMT] org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:573)
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:550)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.doDBKeysQuery(PanelSocketServer.java:480)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.handleMessage(PanelSocketServer.java:278)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer.access$000(PanelSocketServer.java:134)
+	at me.mast3rplan.phantombot.panel.PanelSocketServer$MessageRunnable.run(PanelSocketServer.java:837)
+	at java.lang.Thread.run(Thread.java:748)
+
+

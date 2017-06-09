@@ -1,0 +1,19 @@
+[05-19-2017 @ 01:07:56.415 GMT] java.nio.charset.UnsupportedCharsetException: gzip
+	at java.nio.charset.Charset.forName(Charset.java:531)
+	at org.apache.commons.io.Charsets.toCharset(Charsets.java:80)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:803)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:143)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:73)
+	at com.gmt2001.TwitchAPIv3.GetData(TwitchAPIv3.java:69)
+	at com.gmt2001.TwitchAPIv3.GetChannel(TwitchAPIv3.java:263)
+	at me.mast3rplan.phantombot.cache.TwitchCache.updateCache(TwitchCache.java:227)
+	at me.mast3rplan.phantombot.cache.TwitchCache.run(TwitchCache.java:132)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[05-19-2017 @ 14:42:57.147 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-19-2017 @ 20:46:07.789 GMT] [readJsonFromUrl()@BTTVAPIv2.java:123] BTTVAPIv2::readJsonFromUrl::Exception: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+
+[05-19-2017 @ 20:46:07.789 GMT] [updateCache()@EmotesCache.java:182] Failed to get BTTV Emotes
+

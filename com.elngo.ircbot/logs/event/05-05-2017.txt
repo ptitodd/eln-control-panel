@@ -1,0 +1,25 @@
+[05-05-2017 @ 17:19:11.030 MDT] [logging.js:207] Starting Log Rotation
+[05-05-2017 @ 17:19:11.033 MDT] [logging.js:219] Finished Log Rotation
+[05-05-2017 @ 21:02:25.712 MDT] [init.js:738] Core loaded, initializing bot...
+[05-05-2017 @ 21:02:26.754 MDT] [init.js:1336] init.js api's loaded.
+[05-05-2017 @ 21:02:26.778 MDT] [logging.js:207] Starting Log Rotation
+[05-05-2017 @ 21:02:26.850 MDT] [logging.js:219] Finished Log Rotation
+[05-05-2017 @ 21:03:02.281 MDT] [followHandler.js:119] Follow announcements enabled
+[05-05-2017 @ 21:03:41.056 MDT] [init.js:738] Core loaded, initializing bot...
+[05-05-2017 @ 21:03:41.897 MDT] [init.js:1336] init.js api's loaded.
+[05-05-2017 @ 21:03:41.921 MDT] [logging.js:207] Starting Log Rotation
+[05-05-2017 @ 21:03:41.929 MDT] [logging.js:219] Finished Log Rotation
+[05-05-2017 @ 21:04:15.018 MDT] [followHandler.js:119] Follow announcements enabled
+[05-05-2017 @ 21:08:38.763 MDT] [raffleSystem.js:393] A raffle was closed by: misterbotty.
+[05-05-2017 @ 21:10:17.599 MDT] [raffleSystem.js:393] A raffle was closed by: misterbotty.
+[05-05-2017 @ 21:11:04.626 MDT] [raffleSystem.js:384] A raffle was opened by: misterbotty. Arguments (open)
+[05-05-2017 @ 22:16:05.701 MDT] [init.js:738] Core loaded, initializing bot...
+[05-05-2017 @ 22:16:06.539 MDT] [init.js:1336] init.js api's loaded.
+[05-05-2017 @ 22:16:06.564 MDT] [logging.js:207] Starting Log Rotation
+[05-05-2017 @ 22:16:06.573 MDT] [logging.js:219] Finished Log Rotation
+[05-05-2017 @ 22:16:39.945 MDT] [followHandler.js:119] Follow announcements enabled
+[05-05-2017 @ 22:26:48.015 MDT] [init.js:738] Core loaded, initializing bot...
+[05-05-2017 @ 22:26:49.158 MDT] [init.js:1336] init.js api's loaded.
+[05-05-2017 @ 22:26:49.191 MDT] [logging.js:207] Starting Log Rotation
+[05-05-2017 @ 22:26:49.241 MDT] [logging.js:219] Finished Log Rotation
+[05-05-2017 @ 22:27:24.328 MDT] [followHandler.js:119] Follow announcements enabled

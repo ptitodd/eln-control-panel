@@ -1,0 +1,7 @@
+[04-29-2017 @ 07:31:30.480 MDT] [logging.js:207] Starting Log Rotation
+[04-29-2017 @ 07:31:30.484 MDT] [logging.js:219] Finished Log Rotation
+[04-29-2017 @ 20:19:29.182 MDT] [init.js:738] Core loaded, initializing bot...
+[04-29-2017 @ 20:19:30.747 MDT] [init.js:1336] init.js api's loaded.
+[04-29-2017 @ 20:19:30.781 MDT] [logging.js:207] Starting Log Rotation
+[04-29-2017 @ 20:19:30.790 MDT] [logging.js:219] Finished Log Rotation
+[04-29-2017 @ 20:20:04.613 MDT] [followHandler.js:119] Follow announcements enabled

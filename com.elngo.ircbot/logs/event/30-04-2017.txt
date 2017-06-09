@@ -1,0 +1,27 @@
+[04-30-2017 @ 10:21:38.680 MDT] [init.js:465] MisterBotty requested a reconnect!
+[04-30-2017 @ 10:21:46.295 MDT] [streamInfo.js:397] MisterBotty changed the current game to Grand Theft Auto V
+[04-30-2017 @ 14:16:51.210 MDT] [raffleSystem.js:384] A raffle was opened by: shadowsolider69. Arguments (open)
+[04-30-2017 @ 14:55:24.901 MDT] [raffleSystem.js:384] A raffle was opened by: misterbotty. Arguments (open AngelsStrokin 0 undefined)
+[04-30-2017 @ 15:50:11.174 MDT] [raffleSystem.js:393] A raffle was closed by: misterbotty.
+[04-30-2017 @ 15:51:01.572 MDT] [raffleSystem.js:384] A raffle was opened by: misterbotty. Arguments (open Angelsstrokin 0 undefined)
+[04-30-2017 @ 16:10:04.214 MDT] [init.js:738] Core loaded, initializing bot...
+[04-30-2017 @ 16:10:06.035 MDT] [init.js:1336] init.js api's loaded.
+[04-30-2017 @ 16:10:06.114 MDT] [logging.js:207] Starting Log Rotation
+[04-30-2017 @ 16:10:06.124 MDT] [logging.js:219] Finished Log Rotation
+[04-30-2017 @ 16:10:40.144 MDT] [followHandler.js:119] Follow announcements enabled
+[04-30-2017 @ 16:10:44.989 MDT] [init.js:651] MisterBotty disabled module "./custom/topicGenerator.js"
+[04-30-2017 @ 16:10:47.344 MDT] [init.js:578] MisterBotty enabled module "./custom/topicGenerator.js"
+[04-30-2017 @ 16:13:18.939 MDT] [init.js:738] Core loaded, initializing bot...
+[04-30-2017 @ 16:13:21.374 MDT] [init.js:1336] init.js api's loaded.
+[04-30-2017 @ 16:13:21.411 MDT] [logging.js:207] Starting Log Rotation
+[04-30-2017 @ 16:13:21.438 MDT] [logging.js:219] Finished Log Rotation
+[04-30-2017 @ 16:13:55.644 MDT] [followHandler.js:119] Follow announcements enabled
+[04-30-2017 @ 17:18:29.355 MDT] [init.js:738] Core loaded, initializing bot...
+[04-30-2017 @ 17:19:11.257 MDT] [init.js:738] Core loaded, initializing bot...
+[04-30-2017 @ 17:19:12.545 MDT] [init.js:1336] init.js api's loaded.
+[04-30-2017 @ 17:19:12.576 MDT] [logging.js:207] Starting Log Rotation
+[04-30-2017 @ 17:19:12.590 MDT] [logging.js:219] Finished Log Rotation
+[04-30-2017 @ 17:19:47.272 MDT] [followHandler.js:119] Follow announcements enabled
+[04-30-2017 @ 21:00:39.092 MDT] [raffleSystem.js:384] A raffle was opened by: shadowsolider69. Arguments (open)
+[04-30-2017 @ 22:25:22.986 MDT] [raffleSystem.js:393] A raffle was closed by: misterbotty.
+[04-30-2017 @ 22:25:40.464 MDT] [raffleSystem.js:384] A raffle was opened by: misterbotty. Arguments (open angelsstrokin 0 undefined)

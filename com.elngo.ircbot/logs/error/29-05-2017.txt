@@ -1,0 +1,4 @@
+[05-29-2017 @ 00:02:44.740 MDT] [youtubePlayer.js:655] YoutubeVideo::exception: No Search Results Found
+[05-29-2017 @ 22:50:11.009 MDT] [init.js:326] (hook.call, yTPlayerRequestCurrentSong, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushCurrentSong" of null
+[05-29-2017 @ 22:50:11.010 MDT] [init.js:326] (hook.call, yTPlayerRequestPlaylist, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushPlayList" of null
+[05-29-2017 @ 22:50:11.011 MDT] [init.js:326] (hook.call, yTPlayerRequestSonglist, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushSongList" of null

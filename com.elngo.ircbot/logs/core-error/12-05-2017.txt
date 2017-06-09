@@ -1,0 +1,12 @@
+[05-12-2017 @ 05:41:12.690 GMT] [updateCache()@EmotesCache.java:182] Failed to get BTTV Emotes
+
+[05-12-2017 @ 06:41:13.399 GMT] [readJsonFromUrl()@BTTVAPIv2.java:123] BTTVAPIv2::readJsonFromUrl::Exception: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+
+[05-12-2017 @ 06:41:13.399 GMT] [updateCache()@EmotesCache.java:182] Failed to get BTTV Emotes
+
+[05-12-2017 @ 08:41:44.990 GMT] [readJsonFromUrl()@BTTVAPIv2.java:123] BTTVAPIv2::readJsonFromUrl::Exception: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+
+[05-12-2017 @ 08:41:44.990 GMT] [updateCache()@EmotesCache.java:182] Failed to get BTTV Emotes
+
+[05-12-2017 @ 09:27:23.740 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+

@@ -1,0 +1,128 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">MIDI RTMP for Akai LPD8</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+          </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div id="content" class="container">
+	  <!-- PADS -->
+	  <div class="row">
+		<div class="col-xs-8">
+			<!-- First row of Midi Pads -->
+      <div class="row">
+        <div class="col-sm-3 col-xs-6 button" data-key="q">
+          <h4>1.TODD</h4>
+          <p><a class="btn btn-default" id="Str1" href="#" role="button">GO &raquo;</a></p>
+        </div>
+        <div class="col-sm-3 col-xs-6 button" data-key="w">
+          <h4>2.BEN</h4>
+          <p><a class="btn btn-default" id="Str2" href="#" role="button">GO &raquo;</a></p>
+       </div>
+        <div class="col-sm-3 col-xs-6  button" data-key="e">
+          <h4>3.GRANT</h4>
+          <p><a class="btn btn-default" id="Str3" href="#" role="button">GO &raquo;</a></p>
+        </div>
+        <div class="col-sm-3 col-xs-6 button" data-key="r">
+          <h4>4.TYLER</h4>
+          <p><a class="btn btn-default" id="Str4" href="#" role="button">GO &raquo;</a></p>
+        </div>
+      </div>
+      <!-- Second Row of Midi Pads -->
+      <div class="row">
+        <div class="col-sm-3 col-xs-6 button" data-key="t">
+          <h4>5.KEVIN</h4>
+          <p><a class="btn btn-default" id="Str5" href="#" role="button">GO &raquo;</a></p>
+        </div>
+        <div class="col-sm-3 col-xs-6 button" data-key="y">
+          <h4>6.SEAN</h4>
+          <p><a class="btn btn-default" id="Str6" href="#" role="button">GO &raquo;</a></p>
+       </div>
+        <div class="col-sm-3 col-xs-6 button" data-key="u">
+          <h4>7.CAREY</h4>
+          <p><a class="btn btn-default" id="Str7" href="#" role="button">GO &raquo;</a></p>
+        </div>
+        <div class="col-sm-3 col-xs-6 button" data-key="i">
+          <h4>8.EXTRA</h4>
+          <p><a class="btn btn-default" id="Str8" href="#" role="button">GO &raquo;</a></p>
+        </div>
+      </div>
+		</div>
+		<div class="col-xs-4">
+			<div class="row">
+				<div class="col-xs-12">
+				<div class="alert alert-success">Interval: <span id="time_info">2m 0s</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+				<div class="alert alert-warning">Timer: <span id="timerdiv"></span></div>
+				</div>
+			</div>
+	  </div>
+		</div>
+			  <div class="row">
+		  <div class="col-xs-12">
+			  <div id="device_info" class="alert alert-info">
+			  <div id="key_data"></div>
+		  </div>
+	  </div>  
+	  </div>
+
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 - Todd H. Willsie</p>
+      </footer>
+    </div> <!-- /container -->
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

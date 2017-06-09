@@ -1,0 +1,3 @@
+[05-10-2017 @ 19:33:42.566 MDT] [streamInfo.js:397] ElectricalLineNoise changed the current game to Heroes of the Storm
+[05-10-2017 @ 22:27:00.671 MDT] [logging.js:207] Starting Log Rotation
+[05-10-2017 @ 22:27:00.673 MDT] [logging.js:219] Finished Log Rotation

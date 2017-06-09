@@ -1,0 +1,5 @@
+[05-07-2017 @ 16:46:07.106 MDT] [raffleSystem.js:384] A raffle was opened by: misterbotty. Arguments (open angelsstroking 0 undefined)
+[05-07-2017 @ 17:18:55.977 MDT] [raffleSystem.js:393] A raffle was closed by: misterbotty.
+[05-07-2017 @ 17:19:29.064 MDT] [raffleSystem.js:384] A raffle was opened by: misterbotty. Arguments (open angelsstrokin 0 undefined)
+[05-07-2017 @ 22:26:52.773 MDT] [logging.js:207] Starting Log Rotation
+[05-07-2017 @ 22:26:52.775 MDT] [logging.js:219] Finished Log Rotation

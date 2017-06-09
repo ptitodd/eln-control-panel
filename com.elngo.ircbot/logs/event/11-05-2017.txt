@@ -1,0 +1,2 @@
+[05-11-2017 @ 22:27:03.303 MDT] [logging.js:207] Starting Log Rotation
+[05-11-2017 @ 22:27:03.307 MDT] [logging.js:219] Finished Log Rotation

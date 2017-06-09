@@ -1,0 +1,19 @@
+#PhantomBot Configuration File
+#Wed Apr 26 01:12:48 MDT 2017
+apioauth=oauth\:gtuf4pe3es306dq5sow6fbmzwlnbk1
+baseport=25000
+channel=ElectricalLineNoise
+msglimit30=18.75
+musicenable=true
+oauth=oauth\:m1547h2h2kxt62s7n6hdvu1qfwlehv
+owner=ElectricalLineNoise
+panelpassword=VapidSandKing
+paneluser=admin
+usehttps=false
+user=misterbotty
+webauth=m0AAMFyYcjIn9xLtlj65O0umNddmPL
+webauthro=HBogRPTecVtzUEFDoK16XLzRPgggA6
+webenable=true
+whisperlimit60=60.0
+ytauth=RVMbtdZhDBlmS4wbujZe0fx7uPTue1
+ytauthro=9qvISWZb0aH63hM0xTulNzpW3m6DE6

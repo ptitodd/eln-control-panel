@@ -1,0 +1,30 @@
+[04-28-2017 @ 02:30:48.716 GMT] [updateCache()@TwitchCache.java:218] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:30:48.717 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:36:53.978 GMT] [updateCache()@TwitchCache.java:218] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:36:53.978 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:37:23.981 GMT] [updateCache()@TwitchCache.java:218] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:37:23.982 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:57:39.040 GMT] [updateCache()@TwitchCache.java:218] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:57:39.041 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:58:09.042 GMT] [updateCache()@TwitchCache.java:218] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 02:58:09.042 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 16:59:04.750 GMT] [updateCache()@TwitchCache.java:218] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 16:59:04.750 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 16:59:34.750 GMT] [updateCache()@TwitchCache.java:218] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 16:59:34.750 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+
+[04-28-2017 @ 22:47:06.125 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+

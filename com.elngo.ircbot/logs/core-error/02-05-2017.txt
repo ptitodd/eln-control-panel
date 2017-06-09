@@ -1,0 +1,4 @@
+[05-02-2017 @ 01:21:40.150 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-02-2017 @ 01:58:34.767 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+

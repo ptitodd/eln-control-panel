@@ -1,0 +1,2 @@
+[05-07-2017 @ 14:34:57.155 GMT] [updateCache()@TwitchCache.java:275] TwitchCache::updateCache: Failed to update.
+

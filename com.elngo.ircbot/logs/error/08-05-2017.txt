@@ -1,0 +1,9 @@
+[05-08-2017 @ 08:26:45.830 MDT] [init.js:326] (hook.call, yTPlayerRequestCurrentSong, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushCurrentSong" of null
+[05-08-2017 @ 08:26:45.832 MDT] [init.js:326] (hook.call, yTPlayerRequestPlaylist, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushPlayList" of null
+[05-08-2017 @ 08:26:45.833 MDT] [init.js:326] (hook.call, yTPlayerRequestSonglist, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushSongList" of null
+[05-08-2017 @ 21:52:39.761 MDT] [init.js:326] (hook.call, yTPlayerRequestCurrentSong, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushCurrentSong" of null
+[05-08-2017 @ 21:52:39.763 MDT] [init.js:326] (hook.call, yTPlayerRequestPlaylist, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushPlayList" of null
+[05-08-2017 @ 21:52:39.764 MDT] [init.js:326] (hook.call, yTPlayerRequestSonglist, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushSongList" of null
+[05-08-2017 @ 21:52:46.007 MDT] [init.js:326] (hook.call, yTPlayerRequestCurrentSong, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushCurrentSong" of null
+[05-08-2017 @ 21:52:46.008 MDT] [init.js:326] (hook.call, yTPlayerRequestPlaylist, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushPlayList" of null
+[05-08-2017 @ 21:52:46.009 MDT] [init.js:326] (hook.call, yTPlayerRequestSonglist, ./systems/youtubePlayer.js) TypeError: Cannot call method "pushSongList" of null

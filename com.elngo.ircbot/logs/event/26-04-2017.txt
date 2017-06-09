@@ -1,0 +1,58 @@
+[04-26-2017 @ 01:12:54.284 MDT] [init.js:738] Core loaded, initializing bot...
+[04-26-2017 @ 01:12:57.056 MDT] [init.js:1336] init.js api's loaded.
+[04-26-2017 @ 01:12:57.206 MDT] [logging.js:207] Starting Log Rotation
+[04-26-2017 @ 01:12:57.236 MDT] [logging.js:219] Finished Log Rotation
+[04-26-2017 @ 01:18:03.408 MDT] [init.js:578] MisterBotty enabled module "./systems/pointSystem.js"
+[04-26-2017 @ 01:18:08.184 MDT] [init.js:578] MisterBotty enabled module "./systems/raffleSystem.js"
+[04-26-2017 @ 01:18:14.678 MDT] [init.js:578] MisterBotty enabled module "./systems/youtubePlayer.js"
+[04-26-2017 @ 01:18:39.959 MDT] [init.js:578] MisterBotty enabled module "./games/roulette.js"
+[04-26-2017 @ 01:18:42.503 MDT] [init.js:578] MisterBotty enabled module "./games/roll.js"
+[04-26-2017 @ 01:18:45.975 MDT] [init.js:578] MisterBotty enabled module "./games/slotMachine.js"
+[04-26-2017 @ 01:18:49.520 MDT] [init.js:578] MisterBotty enabled module "./games/killCommand.js"
+[04-26-2017 @ 01:18:51.641 MDT] [init.js:578] MisterBotty enabled module "./games/gambling.js"
+[04-26-2017 @ 01:18:54.541 MDT] [init.js:578] MisterBotty enabled module "./games/adventureSystem.js"
+[04-26-2017 @ 01:18:56.378 MDT] [init.js:578] MisterBotty enabled module "./games/8ball.js"
+[04-26-2017 @ 01:19:09.061 MDT] [init.js:578] MisterBotty enabled module "./commands/highlightCommand.js"
+[04-26-2017 @ 01:22:33.639 MDT] [init.js:578] MisterBotty enabled module "./systems/auctionSystem.js"
+[04-26-2017 @ 01:22:35.142 MDT] [init.js:578] MisterBotty enabled module "./systems/audioPanelSystem.js"
+[04-26-2017 @ 01:22:44.222 MDT] [init.js:578] MisterBotty enabled module "./systems/greetingSystem.js"
+[04-26-2017 @ 01:22:45.844 MDT] [init.js:578] MisterBotty enabled module "./systems/noticeSystem.js"
+[04-26-2017 @ 01:22:53.641 MDT] [init.js:578] MisterBotty enabled module "./systems/quoteSystem.js"
+[04-26-2017 @ 01:22:59.779 MDT] [init.js:578] MisterBotty enabled module "./systems/ticketraffleSystem.js"
+[04-26-2017 @ 01:26:08.441 MDT] [init.js:738] Core loaded, initializing bot...
+[04-26-2017 @ 01:26:09.634 MDT] [init.js:1336] init.js api's loaded.
+[04-26-2017 @ 01:26:09.670 MDT] [logging.js:207] Starting Log Rotation
+[04-26-2017 @ 01:26:09.680 MDT] [logging.js:219] Finished Log Rotation
+[04-26-2017 @ 01:29:03.935 MDT] [raffleSystem.js:384] A raffle was opened by: misterbotty. Arguments (open Anal 0 undefined)
+[04-26-2017 @ 01:29:35.712 MDT] [raffleSystem.js:393] A raffle was closed by: misterbotty.
+[04-26-2017 @ 01:33:15.209 MDT] [init.js:578] MisterBotty enabled module "./handlers/keywordHandler.js"
+[04-26-2017 @ 01:33:19.256 MDT] [init.js:578] MisterBotty enabled module "./handlers/followHandler.js"
+[04-26-2017 @ 01:33:21.089 MDT] [init.js:578] MisterBotty enabled module "./handlers/gameWispHandler.js"
+[04-26-2017 @ 01:33:22.365 MDT] [init.js:578] MisterBotty enabled module "./handlers/hostHandler.js"
+[04-26-2017 @ 01:33:27.169 MDT] [init.js:578] MisterBotty enabled module "./handlers/twitterHandler.js"
+[04-26-2017 @ 01:33:33.492 MDT] [init.js:578] MisterBotty enabled module "./systems/bettingSystem.js"
+[04-26-2017 @ 01:33:39.589 MDT] [init.js:578] MisterBotty enabled module "./systems/queueSystem.js"
+[04-26-2017 @ 01:33:46.473 MDT] [init.js:578] MisterBotty enabled module "./systems/raidSystem.js"
+[04-26-2017 @ 01:33:47.863 MDT] [init.js:578] MisterBotty enabled module "./systems/ranksSystem.js"
+[04-26-2017 @ 01:34:05.563 MDT] [init.js:578] MisterBotty enabled module "./handlers/donationHandler.js"
+[04-26-2017 @ 01:34:12.638 MDT] [init.js:578] MisterBotty enabled module "./games/random.js"
+[04-26-2017 @ 01:34:21.832 MDT] [init.js:578] MisterBotty enabled module "./commands/topCommand.js"
+[04-26-2017 @ 01:34:25.823 MDT] [init.js:578] MisterBotty enabled module "./commands/dualstreamCommand.js"
+[04-26-2017 @ 01:34:27.907 MDT] [init.js:578] MisterBotty enabled module "./commands/deathctrCommand.js"
+[04-26-2017 @ 19:55:52.319 MDT] [init.js:738] Core loaded, initializing bot...
+[04-26-2017 @ 19:55:53.555 MDT] [init.js:1336] init.js api's loaded.
+[04-26-2017 @ 19:55:53.583 MDT] [logging.js:207] Starting Log Rotation
+[04-26-2017 @ 19:55:53.601 MDT] [logging.js:219] Finished Log Rotation
+[04-26-2017 @ 19:56:30.322 MDT] [followHandler.js:119] Follow announcements enabled
+[04-26-2017 @ 21:35:19.759 MDT] [raffleSystem.js:384] A raffle was opened by: misterbotty. Arguments (open 100 Bananas 0 undefined -usepoints)
+[04-26-2017 @ 21:36:38.319 MDT] [raffleSystem.js:393] A raffle was closed by: misterbotty.
+[04-26-2017 @ 21:41:33.435 MDT] [init.js:578] MisterBotty enabled module "./handlers/streamTipHandler.js"
+[04-26-2017 @ 21:41:40.175 MDT] [init.js:578] MisterBotty enabled module "./handlers/wordCounter.js"
+[04-26-2017 @ 21:41:46.732 MDT] [init.js:578] MisterBotty enabled module "./systems/pollSystem.js"
+[04-26-2017 @ 22:31:00.343 MDT] [init.js:738] Core loaded, initializing bot...
+[04-26-2017 @ 22:31:02.007 MDT] [init.js:1336] init.js api's loaded.
+[04-26-2017 @ 22:31:02.037 MDT] [logging.js:207] Starting Log Rotation
+[04-26-2017 @ 22:31:02.041 MDT] [logging.js:219] Finished Log Rotation
+[04-26-2017 @ 22:31:36.925 MDT] [followHandler.js:119] Follow announcements enabled
+[04-26-2017 @ 22:34:24.619 MDT] [customCommands.js:820] electricallinenoise set price on command !songrequest to 100 nuggets
+[04-26-2017 @ 22:41:30.046 MDT] [customCommands.js:820] misterbotty set price on command !songrequest to 100 nuggets

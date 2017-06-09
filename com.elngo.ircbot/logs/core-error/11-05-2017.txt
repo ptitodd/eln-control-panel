@@ -1,0 +1,25 @@
+[05-11-2017 @ 02:34:49.668 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-11-2017 @ 04:07:09.389 GMT] [handleFile()@NEWHTTPServer.java:393] HTTP Server: handleFile(): ./web/ytplayerview/favicon.ico (No such file or directory)
+
+[05-11-2017 @ 04:07:09.390 GMT] java.io.FileNotFoundException: ./web/ytplayerview/favicon.ico (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at me.mast3rplan.phantombot.httpserver.NEWHTTPServer.handleFile(NEWHTTPServer.java:384)
+	at me.mast3rplan.phantombot.httpserver.NEWHTTPServer.access$000(NEWHTTPServer.java:43)
+	at me.mast3rplan.phantombot.httpserver.NEWHTTPServer$YTPHandler.handle(NEWHTTPServer.java:111)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:72)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[05-11-2017 @ 21:58:31.232 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+

@@ -1,0 +1,1 @@
+[06-02-2017 @ 09:24:20.612 MDT] [raffleSystem.js:393] A raffle was closed by: electricallinenoise.

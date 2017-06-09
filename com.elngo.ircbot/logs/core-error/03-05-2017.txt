@@ -1,0 +1,43 @@
+[05-03-2017 @ 02:16:29.758 GMT] [handleFile()@NEWHTTPServer.java:393] HTTP Server: handleFile(): ./web/robots.txt (No such file or directory)
+
+[05-03-2017 @ 02:16:29.758 GMT] java.io.FileNotFoundException: ./web/robots.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at me.mast3rplan.phantombot.httpserver.NEWHTTPServer.handleFile(NEWHTTPServer.java:384)
+	at me.mast3rplan.phantombot.httpserver.NEWHTTPServer.access$000(NEWHTTPServer.java:43)
+	at me.mast3rplan.phantombot.httpserver.NEWHTTPServer$HTTPServerHandler.handle(NEWHTTPServer.java:218)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:158)
+	at sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:431)
+	at sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:396)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[05-03-2017 @ 21:28:57.440 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:24:48.549 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:25:18.827 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:25:49.095 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:26:19.367 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:26:49.638 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:27:19.872 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:27:50.247 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:28:20.578 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:28:50.875 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
+[05-03-2017 @ 23:29:21.094 GMT] [updateCache()@TwitchCache.java:216] TwitchCache::updateCache: 
+
