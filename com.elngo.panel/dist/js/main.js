@@ -56,14 +56,20 @@ $(document).ready(function() {
     $("#settingSave").click( function() {
         var serverIP = $("#serverIP").val();
         var clientIP = $("#clientIP").val();
-        var clientAuth = $("clientAuth").val();
-        var botIP = $("botIP").val();
+        var clientAuth = $("#clientAuth").val();
+        var botIP = $("#botIP").val();
         setCookie("serverIP", serverIP, 500);
         setCookie("clientIP", clientIP, 500);
         setCookie("clientAuth", clientAuth, 500);
         setCookie("botIP", botIP, 500);
         $("#settingSave").removeClass("btn-info");
         $("#settingSave").addClass("btn-success");
+        $("#settingSave").text("Saved");
+        setTimeout(function(){
+	        $("#settingSave").removeClass("btn-success");
+	        $("#settingSave").addClass("btn-info");
+	        $("#settingSave").text("Save");
+        }, 1000);
     });
 })
 
