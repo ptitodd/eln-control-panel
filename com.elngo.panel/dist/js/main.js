@@ -2,7 +2,7 @@
 
 function connectPHNTM(){
 
-var wsP = new WebSocket('ws://localhost:25025/');
+var wsP = new WebSocket('ws://localhost:26001/');
 	
 wsP.onopen = function () {
 	$(".phantombot-status a span").replaceWith('<span class="label label-success">OK</span>');
@@ -67,6 +67,7 @@ function listRTMPstreams() {
 
 $(document).ready(function() {
 	connectOVL();
+	connectPHNTM();
     setInterval(listRTMPstreams, 1000);
     loadSettings();
     
